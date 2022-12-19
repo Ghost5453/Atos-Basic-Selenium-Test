@@ -1,4 +1,4 @@
-package selenium;
+package selenium.test.bad;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public class TestBasicWebTest
+public class TestBasicWebTestNoPageClass
 {
     private WebDriver driver;
     private WebDriverWait wait;
